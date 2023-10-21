@@ -43,7 +43,7 @@ h1 {
     padding-top: 5px;
     padding-left: 5px;
     color: white;
-    width: 430px;
+    width: 450px;
     padding-right: 25px;
     text-align: justify;
     position: relative;
@@ -63,4 +63,24 @@ span {
 footer {
     text-align: center;
     margin-top: -24px;
+}
+
+/* Responsive To-do  */
+@media only screen and (max-width: 767px) {
+        .box{
+            width: 90%;
+            height: 500px;
+            /* height: auto; */
+        }    
+        .list-item{
+            width: 80%;
+            height: auto;
+        }
+        .list-item input{
+            width: 100%;
+        }
+        #todoList li{
+            width: 100%;
+            
+        }
 }
